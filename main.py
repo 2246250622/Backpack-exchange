@@ -1,5 +1,5 @@
 """
-註冊連結：https://backpack.exchange/refer/9a468137-6bb0-4693-bb80-cc6308bf36c0
+註冊連結：https://backpack.exchange/refer/babycheuk
 """
 
 import time
@@ -23,8 +23,8 @@ def floor_to(value: Union[Decimal, float, int], target: Union[Decimal, float, in
 if __name__ == '__main__':
     client = BackpackClient(api_key=api_key, api_secret=api_secret)
     trade_pair.replace("/", "_")
-    precision = Decimal("1")/Decimal(10**vol_precision)  # 数量精度
-    print("数量精度：", precision)
+    precision = Decimal("1")/Decimal(10**vol_precision)  # 數量精度
+    print("數量精度：", precision)
     while True:
         try:
             clientId = client.get_order_id()
@@ -32,8 +32,8 @@ if __name__ == '__main__':
             symbol1, symbol2 = trade_pair.split("_")
             balance1 = Decimal(balance.get(symbol1)['available'])  # SOL
             balance2 = Decimal(balance.get(symbol2)['available'])  # USDC
-            print("持币数量：", balance1)
-            print("持有USDC数量:", balance2)
+            print("持幣數量：", balance1)
+            print("持有USDC數量:", balance2)
 
             depth = client.depth(trade_pair)
             asks = depth.get("asks")
@@ -49,7 +49,7 @@ if __name__ == '__main__':
             ask_vol2 = ask2[1]
 
             if balance1 > trade_quantity * 0.1:
-                vol = floor_to(balance1, precision)  # 处理精度.
+                vol = floor_to(balance1, precision)  # 處理精度.
                 order = client.place_order(symbol=trade_pair, side="Ask", order_type="Limit", price=str(bid_price2), quantity=str(vol))
                 print("sell position: ", order)
 
