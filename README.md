@@ -1,6 +1,6 @@
 # Backpack 交易所刷交易量腳本
 
-如果你還沒註冊，可以透過連結去註冊：https://backpack.exchange/refer/51bitquant
+如果你還沒註冊，可以透過連結去註冊：[https://backpack.exchange/refer/babycheuk](https://backpack.exchange/refer/babycheuk)
 
 刷交易量獲得打新空投的機會， 最近傳言 Backpack 要上Wormhole或Tensor的IDO/IEO專案。
 
