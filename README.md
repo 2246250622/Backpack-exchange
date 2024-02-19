@@ -22,8 +22,8 @@ trading_fee = 0.001 # 千分之手續費.
 trade_pair = "SOL_USDC" # 交易對.
 ```
 
-6. 启动 main.py 文件
-7. 如果需要代理，可以修改项目下面的api/backpack_client 中的proxies参数.
+6. 啟動 main.py 文件
+7. 如果需要代理，可以修改項目下面的api/backpack_client 中的proxies參數.
 ```python
 self.proxies = {
     'http': '',
@@ -35,6 +35,7 @@ self.proxies = {
 刷交易量會有手續費和滑點的損耗，滑點比較下，主要是手續費, 千分之1手續費的損耗, 滑點相對較小， 交易SOL_UDSC 滑點在萬一以下下。
 另外， 改腳本只是用戶刷簡道的刷交易量，博取空投的或打新的分配額度。 具體請看代碼。 使用前，請注意風險。
 
+https://backpack.exchange/refer/babycheuk
 
 
 
