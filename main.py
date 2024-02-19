@@ -1,5 +1,5 @@
 """
-注册链接：https://backpack.exchange/refer/51bitquant
+註冊連結：https://backpack.exchange/refer/9a468137-6bb0-4693-bb80-cc6308bf36c0
 """
 
 import time
