@@ -8,7 +8,7 @@
 
 1. 下載程式碼，安裝對應的依賴函式庫： pip install -r requirements.txt
 
-2. 註冊backpack交易所：https://backpack.exchange/refer/51bitquant , 然後實名驗證
+2. 註冊backpack交易所：[https://backpack.exchange/refer/babycheuk](https://backpack.exchange/refer/babycheuk) , 然後實名驗證
 3. 從幣安或其他交易所儲值到backpack
 4. 申請apikey: https://backpack.exchange/settings/api-keys
 5. 設定交易參數 具體參數在 config.py 文件
