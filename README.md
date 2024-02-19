@@ -1,25 +1,25 @@
-# Backpack 交易所刷交易量脚本
+# Backpack 交易所刷交易量腳本
 
-如果你还没有注册，可以通过一下链接去注册：https://backpack.exchange/refer/51bitquant
+如果你還沒註冊，可以透過連結去註冊：https://backpack.exchange/refer/51bitquant
 
-刷交易量获得打新空投的机会， 最近传言 Backpack 要上Wormhole或者Tensor的IDO/IEO项目。
+刷交易量獲得打新空投的機會， 最近傳言 Backpack 要上Wormhole或Tensor的IDO/IEO專案。
 
 # 如何使用
 
-1. 下载代码，安装相应的依赖库： pip install -r requirements.txt
+1. 下載程式碼，安裝對應的依賴函式庫： pip install -r requirements.txt
 
-2. 注册backpack交易所：https://backpack.exchange/refer/51bitquant , 然后实名验证
-3. 从币安或者其他交易所充值到backpack
-4. 申请apikey: https://backpack.exchange/settings/api-keys
-5. 配置交易参数 具体参数在 config.py 文件
+2. 註冊backpack交易所：https://backpack.exchange/refer/51bitquant , 然後實名驗證
+3. 從幣安或其他交易所儲值到backpack
+4. 申請apikey: https://backpack.exchange/settings/api-keys
+5. 設定交易參數 具體參數在 config.py 文件
 ```
 api_key = "你的api key"
 api_secret = "你的api secret"
 
-trade_quantity = 3  # 交易的下单数量.
-vol_precision = 2  # 数量精度， 保留两位小数.
-trading_fee = 0.001  # 千分之手续费.
-trade_pair = "SOL_USDC"  # 交易对.
+trade_quantity = 3 # 交易的下單數量.
+vol_precision = 2 # 數量精度， 保留兩位小數.
+trading_fee = 0.001 # 千分之手續費.
+trade_pair = "SOL_USDC" # 交易對.
 ```
 
 6. 启动 main.py 文件
@@ -32,13 +32,8 @@ self.proxies = {
 
 ```
 # 注意
-刷交易量会有手续费和滑点的损耗，滑点比较下，主要是手续费, 千分之1手续费的损耗, 滑点相对较小， 交易SOL_UDSC 滑点在万一以下下。
-另外， 改脚本只是用户刷简道的刷交易量，博取空投的或者打新的分配额度。具体请看代码。使用前，请注意风险。
-
-# 联系方式：
-项目中缺少backpack_client.py 文件
-获得方式， 通过邀请链接注册：https://backpack.exchange/refer/51bitquant
-或者付费购买， 需要该代码可以联系微信： bitquant51
+刷交易量會有手續費和滑點的損耗，滑點比較下，主要是手續費, 千分之1手續費的損耗, 滑點相對較小， 交易SOL_UDSC 滑點在萬一以下下。
+另外， 改腳本只是用戶刷簡道的刷交易量，博取空投的或打新的分配額度。 具體請看代碼。 使用前，請注意風險。
 
 
 
